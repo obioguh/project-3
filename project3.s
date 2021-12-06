@@ -29,5 +29,9 @@ main:
     loop1:
         li $t0, 1000
         beq $s3, $t0, afterLoop1
+        
+        la $a1, input
+        add $a1, $a1, $s3
+        lb $a1, 0($a1)
     
    
