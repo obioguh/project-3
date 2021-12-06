@@ -24,5 +24,6 @@ main:
     syscall
     
     li $s2, 0
+    add $s3, $s2, $zero
     
    
