@@ -12,3 +12,4 @@ main:
     div $t0, $t1
     mfhi $t0
     addi $s0, $t0, 26
+    addiu $s1, $s0, -10
