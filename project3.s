@@ -26,4 +26,8 @@ main:
     li $s2, 0
     add $s3, $s2, $zero
     
+    loop1:
+        li $t0, 1000
+        beq $s3, $t0, afterLoop1
+    
    
