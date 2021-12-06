@@ -10,3 +10,4 @@ main:
     li $t0, 2846337
     li $t1, 11
     div $t0, $t1
+    mfhi $t0
