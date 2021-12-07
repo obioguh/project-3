@@ -144,6 +144,7 @@ SubprogramB:
     addi $t5, $t5, -4
     loop5:
         beq $t6, $t5, afterLoop5
+        lw $a1, 0($t6)
         
     
 
