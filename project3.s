@@ -94,6 +94,11 @@ SubProgramA:
             
     afterLoop3;
         jal SubProgramB
+        
+    move $ra, $t9
+    jr $ra
+    
+SubprogramB:
             
        
         
