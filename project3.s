@@ -73,7 +73,11 @@ SubProgramA:
     
     loop3:
         beq $t0, $s4, afterLoop3
+        lw $a1, 0($t0)
         
+        li $t1, 44
+        bne $a1, $t1, nogo
+        jal     SubprogramB
         
         
     
