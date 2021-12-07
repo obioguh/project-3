@@ -132,6 +132,13 @@ SubprogramB:
     AfterLoop42
     
     sub $t6, $t4, $t5
+    
+    slt $t7, $t6, 0
+    sgt $t8, $t6, 12
+    or $t7, $t7, $t8
+    bne $t7, $zero, invalid
+
+
         
 
     
