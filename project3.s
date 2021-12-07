@@ -123,7 +123,12 @@ SubprogramB:
         beq $t5, $s5, afterLoop42
         
         lw $al, 0($t5)
-        seq $t6
+        seq $t6, $a1, 32
+        seq $t7, $a1, 9
+        or $t6, $t6, $t7
+        beq $t6, $zero, afterLoop42
+        addi $t4, $t4, -4
+        
 
     
             
