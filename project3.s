@@ -151,6 +151,9 @@ SubprogramB:
         slt $t8, $a1, $a2
         and $a3, $t1, $t8
         
+        sgt $t1, $a1, 96
+        addi $a2, $s1, 97
+        
     
 
 
