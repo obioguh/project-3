@@ -34,8 +34,8 @@ main:
         add $a1, $a1, $s3
         lb $a1, 0($a1)
         
-        li $t1, 10
-        beq $a1, $t1, afterLoop1
+        li $t0, 10
+        beq $a1, $t0, afterLoop1
         addi $s3, $s3, 1
         j loop1
     
