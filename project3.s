@@ -100,6 +100,7 @@ SubProgramA:
     
 SubprogramB:
     addi $s6, $sp, 0
+    add $t2, $s5, $zero
             
        
         
