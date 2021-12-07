@@ -59,6 +59,10 @@ main:
         addi $t0, $t0, -1
         j loop2
         
+    afterLoop2:
+    
+    jal SubProgramA
+        
         
         
     
