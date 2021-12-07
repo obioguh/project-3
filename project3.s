@@ -128,6 +128,10 @@ SubprogramB:
         or $t6, $t6, $t7
         beq $t6, $zero, afterLoop42
         addi $t5, $t5, 4
+        j loop42
+    AfterLoop42
+    
+    sub $t6, $t4, $t5
         
 
     
