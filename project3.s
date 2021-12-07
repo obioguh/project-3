@@ -139,6 +139,7 @@ SubprogramB:
     bne $t7, $zero, invalid
     
     add $t6, $t4, $zero
+    li $t7, 0
 
 
         
