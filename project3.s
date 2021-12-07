@@ -92,6 +92,8 @@ SubProgramA:
             addi $t0, $t0, 4
             j loop3
             
+    afterLoop3;
+        jal SubProgramB
             
        
         
