@@ -62,6 +62,9 @@ main:
     afterLoop2:
     
     jal SubProgramA
+    exit:
+        li $v0, 10
+        syscall
         
         
         
