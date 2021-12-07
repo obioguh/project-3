@@ -83,6 +83,10 @@ SubProgramA:
         la $a0, 44
         syscall
         
+        addi $t0, $t0, 4
+        j loop3
+        nogo:
+        
         
     
    
