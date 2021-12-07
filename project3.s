@@ -46,4 +46,8 @@ main:
     
     addi $s4, $sp, 0
     
+    loop2:
+        slt $t1, $t0, $s2
+        bne $t1, $zero, afterLoop2
+    
    
