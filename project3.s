@@ -105,6 +105,7 @@ SubprogramB:
     addi $t2, $t2, -4
     
     add $t4, $t2, $zero
+    add $t5, $s6, $zero
             
        
         
