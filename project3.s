@@ -118,6 +118,14 @@ SubprogramB:
         addi $t4, $t4, -4
         j loop41
     afterLoop41:
+    
+    loop42:
+        beq $t5, $s5, afterLoop42
+        
+        lw $al, 0($t5)
+        seq $t6
+
+    
             
        
         
