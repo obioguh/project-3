@@ -137,6 +137,8 @@ SubprogramB:
     sgt $t8, $t6, 12
     or $t7, $t7, $t8
     bne $t7, $zero, invalid
+    
+    add $t6, $t4, $zero
 
 
         
