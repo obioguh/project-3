@@ -51,5 +51,9 @@ main:
         bne $t1, $zero, afterLoop2
         
         addi $sp, $sp, -4
+        la $a1, input
+        
+        
+        
     
    
