@@ -52,6 +52,8 @@ main:
         
         addi $sp, $sp, -4
         la $a1, input
+        add $a1, $a1, $t0
+        lb $a1, 0($a1)
         
         
         
