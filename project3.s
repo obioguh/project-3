@@ -146,6 +146,9 @@ SubprogramB:
         beq $t6, $t5, afterLoop5
         lw $a1, 0($t6)
         
+        sgt $t1, $a1, 64
+        addi $a2, $s1, 65
+        
     
 
 
