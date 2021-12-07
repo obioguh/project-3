@@ -127,7 +127,7 @@ SubprogramB:
         seq $t7, $a1, 9
         or $t6, $t6, $t7
         beq $t6, $zero, afterLoop42
-        addi $t4, $t4, -4
+        addi $t4, $t5, -4
         
 
     
