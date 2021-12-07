@@ -148,6 +148,8 @@ SubprogramB:
         
         sgt $t1, $a1, 64
         addi $a2, $s1, 65
+        slt $t8, $a1, $a2
+        and $a3, $t1, $t8
         
     
 
