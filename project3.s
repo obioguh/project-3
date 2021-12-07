@@ -38,5 +38,10 @@ main:
         beq $a1, $t0, afterLoop1
         addi $s3, $s3, 1
         j loop1
+        
+    afterLoop1:
+        addi $s3, $s3, -1
+        
+    add $t0, $s3, $zero
     
    
