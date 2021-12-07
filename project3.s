@@ -66,6 +66,9 @@ main:
         li $v0, 10
         syscall
         
+SubProgramA:
+    addi $s5, $sp, 0
+        
         
         
     
