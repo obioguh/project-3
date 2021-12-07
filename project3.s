@@ -70,6 +70,9 @@ SubProgramA:
     addi $s5, $sp, 0
     add, $t0, $s5, $zero
     move $t9, $ra
+    
+    loop3:
+        beq $t0, $s4, afterLoop3
         
         
         
