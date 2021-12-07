@@ -99,6 +99,7 @@ SubProgramA:
     jr $ra
     
 SubprogramB:
+    addi $s6, $sp, 0
             
        
         
