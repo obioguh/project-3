@@ -106,6 +106,18 @@ SubprogramB:
     
     add $t4, $t2, $zero
     add $t5, $s6, $zero
+    
+    loop41:
+        beq $t4, $t3, afterLoop41
+        
+        lw $a1, 0($t4)
+        seq $t6, $a1, 32
+        seq $t7, $a1, 9
+        or $t6, $t6, $t7
+        beq $t6, $zero, afterLoop41
+        addi $t4, $t4, -4
+        j loop41
+    afterLoop41:
             
        
         
