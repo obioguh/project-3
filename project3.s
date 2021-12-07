@@ -79,6 +79,10 @@ SubProgramA:
         bne $a1, $t1, nogo
         jal     SubprogramB
         
+        li $v0, 11
+        la $a0, 44
+        syscall
+        
         
     
    
