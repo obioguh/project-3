@@ -44,4 +44,6 @@ main:
         
     add $t0, $s3, $zero
     
+    addi $s4, $sp, 0
+    
    
