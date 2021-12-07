@@ -68,6 +68,7 @@ main:
         
 SubProgramA:
     addi $s5, $sp, 0
+    add, $t0, $s5, $zero
         
         
         
