@@ -166,6 +166,7 @@ SubprogramB:
         beq $a3, $zero, invalid
         
         move $a0, $t6
+        move $t1, $ra # $t1 is not to be touched as it has ra
         
     
 
