@@ -165,6 +165,8 @@ SubprogramB:
         or $a3, $a3, $t1
         beq $a3, $zero, invalid
         
+        move $a0, $t6
+        
     
 
 
