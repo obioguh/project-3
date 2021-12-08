@@ -193,6 +193,9 @@ SubprogramB:
             j appendTotal
             
         appendSpace:
+            li $v0, 4
+            la $a0, NaN
+            syscall
         
     
     
