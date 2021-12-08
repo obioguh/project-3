@@ -161,8 +161,9 @@ SubprogramB:
         slt $t8, $a1, $a2
         and $t1, $t1, $t8
         
-        or $a2, $a2, $s7
-        or $a2, $a2, $t1
+        or $a3, $a3, $s7
+        or $a3, $a3, $t1
+        beq $a3, $zero, invalid
         
     
 
