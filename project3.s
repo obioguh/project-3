@@ -179,6 +179,12 @@ SubprogramB:
         addi $t6, $t6, -4
         j loop5
         
+    afterLoop5:
+        li $t6, 1
+        j endSubProgramB
+    
+    
+        
     
 
 
