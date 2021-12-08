@@ -210,6 +210,7 @@ SubProgramC:
     li $s7, 65
     add $s7, $s1, $s7
     sgt $t8, $a1, 64
+    slt $a3, $a1, $s7
         
     
     
