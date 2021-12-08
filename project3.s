@@ -206,6 +206,10 @@ SubprogramB:
     back:
         jr $ra
         
+SubProgramC:
+    li $s7, 65
+    add $s7, $s1, $s7
+        
     
     
         
