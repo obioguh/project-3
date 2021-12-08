@@ -190,6 +190,7 @@ SubprogramB:
             j popLoop
         endPoploop:
             beq $t6, $zero, appendSpace
+            j appendTotal
         
     
     
