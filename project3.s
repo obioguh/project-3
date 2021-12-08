@@ -188,6 +188,9 @@ SubprogramB:
             beq $sp, $s5, endPopLoop
             addi $sp, $sp, 4
             j popLoop
+        endPoploop:
+            beq $t6, $zero, appendSpace
+        
     
     
         
