@@ -220,6 +220,13 @@ SubProgramC:
     slt $a3, $a1, $s7
     and $t8, $t8, $a3
     bne $t8, $zero, lowerLetter
+    
+    sgt $t8, $a1, 47
+    slt $a3, $a1, 58
+    and $t8, $t8, $a3
+    bne $t8, $zero, number
+    
+    j number
         
     
     
