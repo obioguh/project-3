@@ -182,6 +182,12 @@ SubprogramB:
     afterLoop5:
         li $t6, 1
         j endSubProgramB
+        
+    endSubProgramB:
+        popLoop:
+            beq $sp, $s5, endPopLoop
+            addi $sp, $sp, 4
+            j popLoop
     
     
         
