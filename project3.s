@@ -175,6 +175,9 @@ SubprogramB:
         div $a2, $s7
         jal SubProgramC
         move $ra, $t1
+        add $t7, $t7, $v0
+        addi $t6, $t6, -4
+        j loop5
         
     
 
