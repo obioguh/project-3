@@ -140,7 +140,7 @@ SubprogramB:
     
     add $t6, $t4, $zero
     li $t7, 0
-    # note. j is being incremented so it it is not on a char 
+    # j is being incremented so it it is not on a char 
     addi $t5, $t5, -4
     loop5:
         beq $t6, $t5, afterLoop5
@@ -166,7 +166,8 @@ SubprogramB:
         beq $a3, $zero, invalid
         
         move $a0, $t6
-        move $t1, $ra # $t1 is not to be touched as it has ra
+        move $t1, $ra 
+        # $t1 is not to be touched as it has ra
         li $a2, $t5, 0
         addi $a2, $t5, 4
         sub $a2, $t6, $a2
