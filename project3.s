@@ -227,6 +227,18 @@ SubProgramC:
     bne $t8, $zero, number
     
     j number
+    
+    lowerLetter:
+        addiu $a1, $a1, -87
+        j powerOff
+        
+    upperLetter:
+        addiu $a1, $a1, -55
+        j powerOff
+        
+    number:
+        addiu $a1, $a1, -48
+        j powerOff
         
     
     
