@@ -251,6 +251,17 @@ SubProgramC:
         mflo $v0
         addi $t8, $t8, 1
         
+        slt $a3, $t8, $v1
+        bne $a3, $zero, pLoop
+        
+    pAfterLoop:
+    
+        mult $a1, $v0
+        
+        mflo $v0
+        
+        jr $ra
+        
         
         
     
