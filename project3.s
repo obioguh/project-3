@@ -140,7 +140,7 @@ SubprogramB:
     
     add $t6, $t4, $zero
     li $t7, 0
-    # j is being incremented so it it is not on a char 
+  
     addi $t5, $t5, -4
     loop5:
         beq $t6, $t5, afterLoop5
