@@ -245,6 +245,10 @@ SubProgramC:
     li $v0, 1
     slt $a3, $t8, $v1
     beq $a3, $zero, pAfterLoop
+    
+    pLoop:
+        mult $v0, $s0
+        mflo $v0
         
         
         
