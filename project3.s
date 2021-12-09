@@ -243,6 +243,8 @@ SubProgramC:
     powerOff:
     li $t8, 0
     li $v0, 1
+    slt $a3, $t8, $v1
+    beq $a3, $zero, pAfterLoop
         
         
         
