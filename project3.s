@@ -249,6 +249,7 @@ SubProgramC:
     pLoop:
         mult $v0, $s0
         mflo $v0
+        addi $t8, $t8, 1
         
         
         
