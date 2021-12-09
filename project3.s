@@ -240,6 +240,11 @@ SubProgramC:
         addiu $a1, $a1, -48
         j powerOff
         
+    powerOff:
+    li $t8, 0
+        
+        
+        
     
     
         
