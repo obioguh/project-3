@@ -167,7 +167,6 @@ SubprogramB:
         
         move $a0, $t6
         move $t1, $ra 
-        # $t1 is not to be touched as it has ra
         li $a2, $t5, 0
         addi $a2, $t5, 4
         sub $a2, $t6, $a2
