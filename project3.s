@@ -242,6 +242,7 @@ SubProgramC:
         
     powerOff:
     li $t8, 0
+    li $v0, 1
         
         
         
